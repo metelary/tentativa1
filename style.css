@@ -1,0 +1,50 @@
+body {
+    background-color: #161616;
+    color: white;
+    font-family: "Cinzel", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.botao {
+    padding: 15px 30px; 
+    font-size: 18px; 
+    background-color: #132852; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.primario {
+    background-color: aliceblue;
+    color: white;
+}
+
+.primario:hover {
+    background-color: #213a6e; 
+}
+
+.secundario {
+    background-color: aliceblue;
+    color: white;
+}
+
+.secundario:hover {
+    background-color: #213a6e; 
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
